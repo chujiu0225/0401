@@ -1,0 +1,1 @@
+const a=document.getElementById('a'),b=document.getElementById('btn'),e=document.getElementById('end');b.onclick=()=>{if(a.paused){a.play();b.textContent='⏸'}else{a.pause();b.textContent='▶'}};a.onended=()=>{b.textContent='▶';e.textContent='谢谢你愿意听完。❤️';};
